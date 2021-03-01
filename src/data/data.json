@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "name": "Shakib Al Hasan",
-    "team": "Myanmar",
+    "team": "Dhaka Platoon",
     "salary": 650000,
     "image": "http://t3.gstatic.com/images?q=tbn:ANd9GcSnn27coD_1wIFzntVYPE0JLeC3nuRD0TBfat56lur6gQbHFdUo0iqfQUj6sUHv"
   }, {
@@ -25,7 +25,7 @@
   }, {
     "id": 5,
     "name": "Mashrafe Bin Mortaza",
-    "team": "Argentina",
+    "team": "Rajshahi Royals",
     "salary": 496000,
     "image": "http://t3.gstatic.com/images?q=tbn:ANd9GcTUita0Dueq42YemMDjR5N_-zqVnytWS_Yh2uFatPvHCDq2H0_9XuIT0nRxVN-T"
   }, {
