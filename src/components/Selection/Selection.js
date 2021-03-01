@@ -6,8 +6,8 @@ const Selection = (props) => {
 
     return (
         <div>
-            <h1>Selected: {selection.length}</h1>
-            <p>Total Budget: {totalSalary}</p>
+            <h3>Selected: {selection.length}</h3>
+            <h4>Total Budget: {totalSalary}</h4>
         </div>
     );
 };

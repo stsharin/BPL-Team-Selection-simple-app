@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>BPL Team Selection</h1>
+      <h1 style={{color: 'red'}}>BPL Team Selection</h1>
       <h2>Total Player: {player.length}</h2>
       <Selection selection={selection}></Selection>
       <ul>
