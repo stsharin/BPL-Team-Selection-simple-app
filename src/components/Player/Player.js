@@ -1,19 +1,24 @@
 import React from 'react';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Player = (props) => {
     const {name, team, salary, image} = props.player;
 
-    const imageStyle = {height: '200px'}
-    const style = {backgroundColor: 'lightGray', margin: '20px', padding:'10px'}
+    // const imageStyle = {height: '200px'}
+    // const style = {backgroundColor: 'lightGray', margin: '20px', padding:'10px'}
     const handleAddPlayer = props.handleAddPlayer;
 
     return (
-        <div style={style}>
-            <img style={imageStyle} src={image} alt=""/>
-            <h2>Name: {name}</h2>
-            <h3>Team Name: {team}</h3>
-            <h3>Salary: {salary}</h3>
-            <button onClick={() => handleAddPlayer(props.player)}>Add Players</button>
+        <div>
+            <div className="card m-5 p-2" style={{width: '18rem'}}>
+                <img src={image} alt=""/>
+                <div className="card-body">
+                    <h4>{name}</h4>
+                    <p>Team Name: {team}</p>
+                    <h5>Salary: {salary}</h5>
+                    <button className="btn btn-success mt-2" onClick={() => handleAddPlayer(props.player)}>Add Players</button>
+                </div>
+            </div>
         </div>
     );
 };

@@ -3,7 +3,8 @@ import './App.css';
 import playerData from './data/data.json';
 import { useEffect, useState } from 'react';
 import Player from './components/Player/Player';
-import Selection from './components/Selection/Selection'
+import Selection from './components/Selection/Selection';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [player, setPlayer] = useState([]);
@@ -20,7 +21,8 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="App">
+      <h1>BPL Team Selection</h1>
       <h2>Total Player: {player.length}</h2>
       <Selection selection={selection}></Selection>
       <ul>
